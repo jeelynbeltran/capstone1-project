@@ -1,0 +1,402 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---------------------- HOME ------------------------------*/
+
+.carousel-item {
+  height: 65vh;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.circle {
+  height: 130px;
+  width: 130px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.img-bg{
+  background-image: url("../images/background1.png");
+  margin-top: -30px;
+}
+
+
+.home-h4{
+  margin: 10px;
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+}
+
+.txt-wel{
+  margin-top: 30px;
+  color: black;
+  font-size: 30px;
+}
+
+.txt-black{
+  margin-top: 20px;
+  color: black;
+  font-size: 25px;
+}
+
+
+/*---------------------- INDEX ------------------------------*/
+
+.masthead {
+  height: 100vh;
+  background-image: url("../images/index-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn-enroll{
+  font-size: 24px;
+}
+.masthead h2 {
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+.masthead h3 {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+/*---------------------- ABOUT ------------------------------*/
+
+.about-image{
+  margin-top: 80px;
+}
+
+.about-image1{
+  width: 350px;
+  height: 250px;
+}
+
+.about-text{
+  margin-top: 80px;
+  float: left;
+  color: #1a1a1a;
+  font-family: 'Noto Serif', serif;
+}
+
+.section2{
+  margin-top: 50px;
+  background-color: #ff3366;
+}
+
+.about-text1{
+  color: #1a1a1a;
+  font-size: 15px;
+  font-family: 'Noto Serif', serif;
+}
+.about-text2,p{
+  color:  #ffffff;
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+}
+
+.txt-h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+.about-text,h2{
+  color: #1a1a1a;
+  font-family: 'Pacifico', cursive;
+}
+
+.text-black{
+  color: black;
+  font-size: 12px;
+
+  text-align: justify;
+
+}
+
+.circle2 {
+  height: 80px;
+  width: 80px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.container h5{
+  font-size: 20px;
+}
+
+/*---------------------- CLASSES ------------------------------*/
+.card {
+    border-radius:0;
+    margin:10px auto;
+}
+.card-title {
+  color: #E44424;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+.card-text {
+  margin-top:10px;
+  margin-bottom: 10px;
+  color:#000000;
+}
+a.btn, a.btn:visited {
+    color:#333333;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-class{
+  margin-top: 70px;
+}
+
+.cap{
+  color: white;
+  background-color: #ff3434;
+}
+
+.age{
+  color: white;
+  background-color: #33cccc;
+}
+
+.dur{
+  color: white;
+  background-color: #ff8c00;
+}
+.btn-sub{
+  margin-top: 90px;
+}
+
+.enroll-btn{
+  overflow: hidden;
+  float: left;
+}
+
+.text-b{
+  font-size: 15px;
+}
+
+.text-b, h6{
+   font-size: 15px;
+}
+
+/*---------------------- CONTACT ------------------------------*/
+hr {border-top: 1px solid #000; width:50%;}
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+.box1{
+  background-color: #ff3366;
+}
+.box2{
+  background-color: #33cccc;
+}
+.box3{
+  background-color: #2ce28c;
+}
+
+.contact-us{
+  font-size: 30px;
+
+}
+
+/*---------------------- GALLERY ------------------------------*/
+:root {
+  /* Base font size */
+  font-size: 10px;
+}
+
+.image-container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  margin-top: 100px;
+}
+
+.heading span {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+.gallery-text{
+  color: black;
+}
+
+.gal{
+  margin-top: 60px;
+}
+
+/*---------------------- TEACHER ------------------------------*/
+
+.teach{
+  width: 350px;
+}
+.teach-text{
+  margin-top: 70px;
+  font-family: 'Pacifico', cursive;
+}
+
+.teach-text p{
+  color:black;
+}
+
+.tbg{
+  background-color: #d43a70;
+  color: white;
+}
+
+.card-body h4{
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-body p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.fab {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook-f {
+    background: #2b6cc4;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #1dacd6;
+    color: white;
+}
+
+.fa-linkedin-in {
+    background: #1535d4;
+    color: white;
+}
+
+/* Twitter */
+.fa-google {
+    background: #ff3434;
+    color: white;
+}
+
+
+/*---------------------- NAVIGATION ------------------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li:nth-child(1) a:hover {
+    background-color: #fed136;
+    color:  #4ed1c8;
+ }
+ul li:nth-child(2) a:hover {
+    background-color: #e9275e;
+    color: #fff;
+ }
+ul li:nth-child(3) a:hover  {
+    background-color: #017467;
+    color: #033;
+ }
+ul li:nth-child(4) a:hover  {
+    background-color: #fc5f09;
+    color: #fff;
+ }
+ul li:nth-child(5) a:hover  {
+    background-color: #ef6dff;
+    color: #101;
+ }
+ ul li:nth-child(6) a:hover  {
+    background-color: #1535d4;
+    color: #101;
+ }

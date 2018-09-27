@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>ABC Academy</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/gif/png" href="assets/images/logo.png">
+
+  <!-- Bootsrap CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- link to google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Pacifico" rel="stylesheet">
+
+
+  <!-- Jquery First then popper the bootstrap -->
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <!-- External bootstrap JS -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a href="home.html>"><img src="assets/images/abc-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">HOME
+              </a>
+            </li>
+            <li class="nav-item about">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="classes.html">CLASSES</a>
+              <span class="sr-only">(current)</span>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teacher.html">TEACHERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+
+<div class="container card-class">
+    <div class="row">
+      <div class="card col-md-12 p-3">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-fluid" src="assets/images/math-image.jpg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-block">
+              <h3 class="card-title">Math Classes</h3>
+              <p class="card-text text-justify">From numbers to shapes and sorting, Education.com's kindergarten math lesson plans have everything you need. Through offering examples of guided practice, interactive modeling, and independent working time with each lesson plan, we ensure students master foundational math concepts. Make sure to check out our lesson plans in addition, subtraction, and measurement.</p>
+
+
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 cap text-center">
+                    <span class="text-b">Capacity</span>
+                    <h6>20 kids</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 dur text-center">
+                    <span class="text-b">Duration</span>
+                    <h6>45 min</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 age text-center">
+                    <span class="text-b">Age</span>
+                    <h6>4y-5y</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container enroll-btn">
+                <div class="row">
+                  <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Enroll now</a></h1>
+                </div>
+              </div>
+              <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal col-sm-12">
+                        <div class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text" required></div>                        
+                        <div class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
+                        <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="email" required></div>
+                        <div class="form-group"><label>Phone</label><input class="form-control phone" placeholder="091712345678" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (999-999-9999)" type="text" required></div>
+                        <div class="form-group"><button type="submit" class="btn btn-success pull-right">Submit</button> <p class="help-block pull-left text-danger hide" id="form-error"></p></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card col-md-12 p-3">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="w-100 img-fluid" src="assets/images/art-image.jpg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-block">
+              <h3 class="card-title">Art Classes</h3>
+              <p class="card-text text-justify">Arts and crafts can include both indoor and outdoor activities, and teach anything from biology to art. Gathering twigs and grasses to make a bird’s nest, or creating an anatomically correct Halloween-themed skeleton paper craft, are a couple of science kindergarten arts and crafts your students may like. For more light-hearted, yet educational fun.</p>
+
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 cap text-center">
+                    <span class="text-b">Capacity</span>
+                    <h6>20 kids</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 dur text-center">
+                    <span class="text-b">Duration</span>
+                    <h6>45 min</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 age text-center">
+                    <span class="text-b">Age</span>
+                    <h6>4y-5y</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container enroll-btn">
+                <div class="row">                 
+                  <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Enroll now</a></h1>
+                </div>
+              </div>
+              <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal col-sm-12">
+                        <div class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text" required></div>                        
+                        <div class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
+                        <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="email" required></div>
+                        <div class="form-group"><label>Phone</label><input class="form-control phone" placeholder="091712345678" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (999-999-9999)" type="text" required></div>
+                        <div class="form-group"><button type="submit" class="btn btn-success pull-right">Submit</button> <p class="help-block pull-left text-danger hide" id="form-error"></p></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="card col-md-12 p-3">
+        <div class="row ">
+          <div class="col-md-4">
+            <img class="w-100 img-fluid" src="assets/images/language-image.jpg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-block">
+              <h3 class="card-title">Language Classes</h3>
+              <p class="card-text text-justify">language class contains numerous learning activities, as well as worksheets and teaching materialsthat are primarily based on phonics, verbal comprehension, reading fluency, vocabulary building and following instructions. As the language arts curriculum constitutes a state standards aligned comprehensive curriculum, many homeschooling parents use the lessons as their entire curriculum for language arts.</p>
+
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 cap text-center">
+                    <span class="text-b">Capacity</span>
+                    <h6>20 kids</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 dur text-center">
+                    <span class="text-b">Duration</span>
+                    <h6>45 min</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 age text-center">
+                    <span class="text-b">Age</span>
+                    <h6>4y-5y</h6>
+                  </div>
+                </div>
+              </div>
+
+
+ 
+              <div class="container enroll-btn">
+                <div class="row float-left">                 
+                  <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Enroll now</a></h1>
+                </div>
+              </div>
+              <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal col-sm-12">
+                        <div class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text" required></div>                        
+                        <div class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
+                        <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="email" required></div>
+                        <div class="form-group"><label>Phone</label><input class="form-control phone" placeholder="091712345678" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (999-999-9999)" type="text" required></div>
+                        <div class="form-group"><button type="submit" class="btn btn-success pull-right">Submit</button> <p class="help-block pull-left text-danger hide" id="form-error"></p></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="card col-md-12 p-3">
+        <div class="row ">
+          <div class="col-md-4">
+            <img class="w-100 img-fluid" src="assets/images/music-image.jpg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-block">
+              <h3 class="card-title">Music Classes</h3>
+              <p class="card-text text-justify">The students will learn to appreciate music as an art through various activities involving movements, action songs, dancing and musical games. Musical concepts like high and low, fast and slow, loud and soft, etc. will be taught and the students will also develop skills such as identifying colors/shapes, cutting, painting, and number/alphabet recognition. The students will acquire a repertoire of songs and will be expected to be able to echo-back melodies in tune and repeat simple rhythms.</p>
+
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 cap text-center">
+                    <span class="text-b">Capacity</span>
+                    <h6>10 kids</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 dur text-center">
+                    <span class="text-b">Duration</span>
+                    <h6>60 min</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 float-left">
+                <div class="row">
+                  <div class="container py-2 age text-center">
+                    <span class="text-b">Age</span>
+                    <h6>5y-6y</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container enroll-btn">
+                <div class="row">                 
+                  <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Enroll now</a></h1>
+                </div>
+              </div>
+              <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal col-sm-12">
+                        <div class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="(Name)" type="text" required></div>                        
+                        <div class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
+                        <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="(user@gmail.com)" type="email" required></div>
+                        <div class="form-group"><label>Phone</label><input class="form-control phone" placeholder="091712345678" data-placement="top" data-trigger="manual" data-content="(999-999-9999)" type="text" required></div>
+                        <div class="form-group"><button type="submit" class="btn btn-success pull-right">Submit</button> 
+                        <p class="help-block pull-left text-danger hide" id="form-error"></p></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div> <!-- End of row -->
+</div><!-- End of Container card-class -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-primary">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 2018 ABC Academy by Jeelyn Beltran</p>
+     </div>
+    </footer>
+
+</body>
+</html>
